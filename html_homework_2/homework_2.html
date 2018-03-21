@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+</head>
+<body>
+<form action="handler.php">
+
+    <p>Анкета</p>
+    <p>Email: <input type="email" name="login" multiple size="50"></p>
+    <p>Password: <input type="password" name="pass" minlength="4" maxlength="10"></p>
+    <p>name :<input type="text" placeholder="Name: " required value="name"/></p>
+    <p>surname :<input type="text" /></p>
+    <p>age :<input type="age" min="20" max="40" ></p>
+    <p>number :<input type="number" min="2" max="9" step="0.5"></p>
+    <button type="button">Save </button>
+    <p>which language you know?</p>
+    <p><input name="language" type="radio" value="c++"> c++</p>
+    <p><input name="language" type="radio" value="c#" checked> c#</p>
+    <p><input name="language" type="radio" value="java" > java</p>
+    <p><input name="language" type="radio" value="js"> java script</p>
+    <p><input name="language" type="radio" value="python" > python</p>
+    <p>which direction you are interested in ?</p>
+    <p><input name="direction" type="radio" value="oop">oop</p>
+    <p><input name="direction" type="radio" value="web" > web</p>
+    <p><input name="direction" type="radio" value="money" > i just want money</p>
+    <p><select multiple size="2">
+        <option>c++</option>
+        <option>c#</option>
+        <option>java script</option>
+        <option>java</option>
+    </select></p>
+    <p><b>what skills do you own?</b></p>
+    <p><input type="checkbox" id="check1"><label for="check1">oop programing</label><Br>
+        <input type="checkbox" id="check2"><label for="check2">web programing</label><Br>
+        <input type="checkbox" id="check3"><label for="check3">b2 english level</label><Br>
+        <input type="checkbox" id="check4"><label for="check4">team working</label></p>
+    <p><b>which cars you prefer?</b></p>
+    <select multiple >
+        <option value="volvo">Volvo</option>
+        <option value="ford">Ford</option>
+        <option value="audi">Audi</option>
+        <option value="bmw">Bmw</option>
+    </select>
+    <p><b>Enter some additional information about you:</b></p>
+    <p><textarea rows="10" cols="45" name="text"></textarea></p>
+    <button type="button">Clear everything </button>
+    <p><input type="submit" value="send"></p>
+
+</form>
+</body>
+</html>
